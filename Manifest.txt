@@ -25,6 +25,8 @@ lib/as/right_as_interface.rb
 lib/s3/right_s3_interface.rb
 lib/sdb/active_sdb.rb
 lib/sdb/right_sdb_interface.rb
+lib/sns/right_sns.rb
+lib/sns/right_sns_interface.rb
 lib/sqs/right_sqs.rb
 lib/sqs/right_sqs_gen2.rb
 lib/sqs/right_sqs_gen2_interface.rb
