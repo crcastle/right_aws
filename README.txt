@@ -19,10 +19,11 @@ The RightScale AWS gems comprise:
 - RightAws::AcwInterface -- interface to Amazon Cloud Watch
 - RightAws::ElbInterface -- interface to Amazon Elastic Load Balancer
 - RightAws::RdsInterface -- interface to Amazon RDS instances
+- RightAws::Sns and RightAws::SnsInterface -- interface to Amazon Simple Notification Service
 
 == FEATURES:
 
-- Full programmmatic access to EC2, EBS, S3, SQS, SDB, CloudFront, AS, ACW, ELB and RDS.
+- Full programmmatic access to EC2, EBS, S3, SQS, SDB, CloudFront, AS, ACW, ELB, RDS, and SNS.
 - Complete error handling: all operations check for errors and report complete
   error information by raising an AwsError.
 - Persistent HTTP connections with robust network-level retry layer using
